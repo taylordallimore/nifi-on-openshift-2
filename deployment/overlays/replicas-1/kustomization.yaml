@@ -5,9 +5,6 @@ bases:
 #resources:
 patchesJson6902:
 - target:
-    kind: Namespace
-    name: my_nifi
-- target:
     kind: ConfigMap
     version: v1
     name: nifi-parameters
